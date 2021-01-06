@@ -9,20 +9,20 @@ fake_data = []
 def hello_world():
     return render_template('index.html')
 
-@app.route('/polluants')
-def show_polluants_data():
+@app.route('/polluants/<polluantname>')
+def show_polluants_data(polluantname):
     # show the user profile for that user
-    return render_template('polluant.html')
+    return show_polluants_info(polluantname)
 
-@app.route('/meteo')
-def show_meteo_data():
+@app.route('/meteo/<meteofactname>')
+def show_meteo_data(meteofactname):
     # show the user profile for that user
-    return render_template('meteo.html')
+    return show_meteo_info(meteofactname)
 
-@app.route('/hopital')
-def show_hopital_data():
+@app.route('/hopital/<hopitaldataname>')
+def show_hopital_data(hopitaldataname):
     # show the user profile for that user
-    return render_template('hopital.html')
+    return show_hopital_info(hopitaldataname)
 
 if __name__ == '__main__':
     app.run()
