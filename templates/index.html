@@ -1,17 +1,24 @@
 <!doctype html>
 <html lang="fr">
+<link rel="stylesheet" href="{{ url_for('static', filename= 'style.css') }}">
 <head>
-    <title>Polluant</title>
+    <title>Hello from Flask</title>
 </head>
 <body>
-<form method="post" action="traitement.php">
-   <p>
-       Quelle polluant vous intéresse :<br />
-       <input type="checkbox" name="ozone" id="ozone" /> <label for="ozone">ozone</label><br />
-       <input type="checkbox" name="dioxyde de souffre" id="dioxyde de souffre" /> <label for="dioxyde de souffre">dioxyde de souffre</label><br />
-       <input type="checkbox" name="dioxyde d'azote" id="dioxyde d'azote" /> <label for="dioxyde d'azote">dioxyde d'azote</label><br />
-       <input type="checkbox" name="particule fine" id="particule fine" /> <label for="particule fine">particule fine</label>
-   </p>
-</form>
+    <h1>PolluPrev</h1>
+<section>
+    <p>Ceci est une page html du site PolluPrev qui vous indique les niveaux de concentration de polluants
+     (Ozone O3, dioxyde de souffre SO2, dioxyde d'azote NO2 et les particules fines PM2.5) relevés ces
+     derniers jours en france. </p>
+
+    <p>Une feature importante du site sera de prévoir le nombre d'entrée dans un hopital en fonction de la
+    concentration des polluants relevés a la station la plus proche.</p>
+</section>
+
+<a href="polluants">Info Polluant</a></br>
+<a href="meteo">Info Meteo</a></br>
+<a href="hopital">Info Hopital</a>
+
+
 </body>
 </html>

@@ -1,0 +1,33 @@
+[{
+  "date": "06-01-2021",
+  "polluants": {
+    "ozone":5,
+    "dioxyde de souffre":3,
+    "dioxyde d'azote":7,
+    "particule fine":4
+  },
+  "meteo":{
+    "temperature": 16.4,
+    "pluie": 0, "vent": 5,
+    "pression":1018.4
+  },
+  "hopital":{"nbEntreeUrgence":500
+  }
+},{
+  "date": "07-01-2021",
+  "polluants": {
+    "ozone":6,
+    "dioxyde de souffre":1,
+    "dioxyde d'azote":2,
+    "particule fine":6
+  },
+  "meteo":{
+    "temperature": 17.4,
+    "pluie": 1,
+    "vent": 7,
+    "pression":1020.7
+  },
+  "hopital":{
+    "nbEntreeUrgence":450
+  }
+}]
