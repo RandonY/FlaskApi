@@ -84,7 +84,3 @@ Flask est un framework python. Il est assez pratique pour lancer de petites appl
 ##### Scrappy
 
 ##### Choix
-
-Buffer
-- kafka
-- rabbitMQ
