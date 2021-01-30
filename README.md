@@ -6,23 +6,31 @@ Le but de ce projet est de créer une api permettant de récupérer des données
 
 ### Retrospective
 
-Lors ce projet, on appris plusieurs chose:
+Lors ce projet, on appris plusieurs choses:
 
-D'une part qu'il était important d'encapsuler son programme pour éviter d'éventuelle conflit entre notre programme et certains programmes ayant une fonctions simmilaire qui ferrai planté l'application. Cette condition est d'autant plus importantes si l'on veut que son application soit utilisable sur n'importe quel machine.
+D'une part qu'il était important d'encapsuler son code pour éviter d'éventuel conflit avec certains programmes ayant une fonction simmilaire qui ferai planter l'application. Cette condition est d'autant plus importantes si l'on veut que son application soit utilisable sur n'importe quel machine.
 
-D'autre part, le choix de la technologie est importante. Une recherche préalable sur les compatibilités entre différentes technologies est utile afin d'éviter de refaire le projet à cause d'une incompatibilité au sein même de l'application entre celles-ci.
+D'autre part, le choix de la technologie est importante. Une recherche préalable sur les compatibilités entre différentes technologies est utile afin d'éviter d'avoir à refaire le projet à cause d'une incompatibilité au sein même de l'application.
 
-Nous avons décidé que pour ce projet nous allions aurions besoin de faire 2 choses:
+Nous avons décidé que pour ce projet nous aurions besoin de faire 2 choses:
 
-- créer plusieurs modèle de machine learning pour faire des prédictions respectivement pour les jours J, J+1, ..., J+n.
+- créer plusieurs modèles de machine learning pour faire des prédictions respectivements pour les jours J, J+1, ..., J+n.
 
 - créer une api qui utilisera ces modèles de machine learning.
 
 Il est donc nécessaire de mettre à jour une base de données pour que les modèle de machine learning puisse prédire tous les jours le nombre d'entrée pour les jours futurs.
 
-Après avoir fait des recherches sur différents sites météorologiques et sur la mesure de polluants, nous avons décidé d'utiliser du webscapping pour récupérer ces données plutot que de fabriquer un capteur.
+Après avoir fait des recherches sur différents sites météorologiques et sur la mesure de polluants, nous avons décidé d'utiliser du web scaping pour récupérer ces données plutot que de fabriquer un capteur.
+
+![Modèle Machine Learning](https://www.bing.com/images/search?view=detailV2&ccid=5b64FIK6&id=2C7DC7863646EFD1D8948BC9C4472C8CDCD3E740&thid=OIP.5b64FIK60Ov6i_zYVNS9KgHaEo&mediaurl=https%3a%2f%2fmk0wittysparksm75pi6.kinstacdn.com%2fwp-content%2fuploads%2f2017%2f08%2fMachine-Learning-1024x640.jpg&exph=640&expw=1024&q=image+machine+learning&simid=608003813052583360&ck=FD034DB3FF06599B82E971FF7DF93247&selectedIndex=2&FORM=IRPRST)
 
 ### Technologie
+
+A développer
+
+Langage programmation:
+- Python
+- Java script
 
 Gestionnaire espace:
 - Docker
