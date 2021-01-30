@@ -16,7 +16,7 @@ D'autre part, le choix de la technologie est importante. Une recherche préalabl
 
 Nous avons décidé que pour ce projet nous aurions besoin de faire 2 choses:
 
-- créer er entrainer plusieurs modèles de machine learning pour faire des prédictions respectivements pour les jours J, J+1, ..., J+n a a partir des données relevé les jours J-1, J-2, ..., J-n'.
+- créer er entrainer plusieurs modèles de machine learning pour faire des prédictions respectivements pour les jours J, J+1, ..., J+n à partir des données relevé les jours J-1, J-2, ..., J-n'.
 
 - créer une api qui affichera les résultats de ces modèles de machine learning.
 
@@ -45,15 +45,22 @@ Tandis que Docker permet de créer son conteneur et d'y installer les prérequis
 
 ##### Python
 
+Python est un langage de programmation interprété, multi- paradigme et multiplateformes. Il favorise la programmation impérative structurée, fonctionnelle et orientée objet.
+L'un de ces avantages est qu'il possède une grande communauté très active et des codes disponible en open source ce qui permet d'avoir accès à beaucoup de ressource de manière totalement gratuite.
+
 ##### Javascript
+
+JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives et à ce titre est une partie essentielle des applications web. Avec les technologies HTML et CSS, JavaScript est parfois considéré comme l'une des technologies cœur du World Wide Web.
 
 ##### C++
 
 ##### Java
 
 ##### Choix
-Au cours de nos études nous avons été amené la plupart du temps à codé en python, il nous est donc plus facile de codé dans ce langage que d'autre comme Java, Javascript, C++.
-De plus python possède une grande communauté très active, ce qui permet d'avoir accès à plus de ressource.
+
+Au cours de nos études nous avons été amené la plupart du temps à codé en python.
+Il nous est donc plus aisé de codé dans ce langage e programmation que d'autre comme Java, Javascript, C++.
+De plus nous avons 
 
 
 #### API
