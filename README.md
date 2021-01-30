@@ -2,7 +2,9 @@
 
 ### Introduction
 
-Le but de ce projet est de créer une api permettant de récupérer des données sur la concentration des polluants et les informations météorologiques pour prédire le nombre d'entrée à l'hopital dans les jours a venir. Le projet se fera avec les données du CHU HENRI MONDOR avec qui nous avons un contact.
+Le but de ce projet est de trouver une corrélation entre la concentration des polluants / les informations météorologiques et le nombre d'entrée à l'hopital.
+Nous avons donc choisi de créer une api qui servira d'IHM pour récupérer les résultats obtenu avec du machine learning et afficher des statistiques sur l'évolution des données concernant les polluants et les inforamtions météorologique.
+Le projet se fera avec les données du CHU HENRI MONDOR chez qui nous avons un contact.
 
 ### Retrospective
 
@@ -14,9 +16,9 @@ D'autre part, le choix de la technologie est importante. Une recherche préalabl
 
 Nous avons décidé que pour ce projet nous aurions besoin de faire 2 choses:
 
-- créer plusieurs modèles de machine learning pour faire des prédictions respectivements pour les jours J, J+1, ..., J+n.
+- créer er entrainer plusieurs modèles de machine learning pour faire des prédictions respectivements pour les jours J, J+1, ..., J+n a a partir des données relevé les jours J-1, J-2, ..., J-n'.
 
-- créer une api qui utilisera ces modèles de machine learning.
+- créer une api qui affichera les résultats de ces modèles de machine learning.
 
 Il est donc nécessaire de mettre à jour une base de données pour que les modèle de machine learning puisse prédire tous les jours le nombre d'entrée pour les jours futurs.
 
@@ -24,39 +26,64 @@ Après avoir fait des recherches sur différents sites météorologiques et sur 
 
 ### Technologie
 
+
 #### Gestion espace disque
 
-Tout d'abord nous avons décidé d'utiliser docker plutot qu'une VM pour encapsuler notre projet, d'une part parce que
+##### Docker
 
-Gestionnaire espace:
-- Docker
-- VMware Player
+##### VMware Player
+
+##### Oracle VirtualBox
+
+##### Choix
+Tout d'abord nous avons décidé d'utiliser Docker plutot qu'une VM pour encapsuler notre projet.
+D'une part parce que la VM fait que l'application ne marche que sur les machines sur lesquels ont a préalablement installé un logiciel (VMware player, Oracle VirtualBox, etc ...) qui peut créer une VM à partir d'une image (.iso, .
+Tandis que Docker permet de créer son conteneur et d'y installer les prérequis nécessaire à la bonne éxecution du code, généralement via la commande "sudo docker-compose up" si le fichier docker compose a été fait dans le projet, sous condition que Docker soit installer sur la machine.
+
 
 #### Langage de programmation
 
-Langage programmation:
-- Python
-- Java script
+##### Python
+
+##### Javascript
+
+##### C++
+
+##### Java
+
+##### Choix
+Au cours de nos études nous avons été amené la plupart du temps à codé en python, il nous est donc plus facile de codé dans ce langage que d'autre comme Java, Javascript, C++.
+De plus python possède une grande communauté très active, ce qui permet d'avoir accès à plus de ressource.
+
 
 #### API
 
-API
-- flask
-- fastapi
+##### Flask
+
+##### Fastapi
+
+##### Choix
+Flask est un framework python. Il est assez pratique pour lancer de petites applications ou site web
+
 
 #### Base de données
 
-Database
-- mogodb
-- mysql
-- webscrapping
-- mongoose
+##### Mysql
+
+##### Mongodb
+
+##### Choix
+
 
 #### Web scraping
 
-WebScrapping
-- beautifullsoup
-- selenium
+##### BeautifullSoup
+
+##### Selenium
+
+##### Scrappy
+
+##### Choix
 
 Buffer
 - kafka
