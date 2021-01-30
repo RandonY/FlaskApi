@@ -31,7 +31,11 @@ Après avoir fait des recherches sur différents sites météorologiques et sur 
 
 ##### Docker
 
+Docker est un outil qui peut empaqueter une application et ses dépendances dans un conteneur isolé, qui pourra être exécuté sur n'importe quel serveur
+
 ##### VMware Player
+
+
 
 ##### Oracle VirtualBox
 
