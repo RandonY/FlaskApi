@@ -22,27 +22,29 @@ Il est donc nécessaire de mettre à jour une base de données pour que les mod�
 
 Après avoir fait des recherches sur différents sites météorologiques et sur la mesure de polluants, nous avons décidé d'utiliser du web scaping pour récupérer ces données plutot que de fabriquer un capteur.
 
-![Modèle Machine Learning](https://www.bing.com/images/search?view=detailV2&ccid=5b64FIK6&id=2C7DC7863646EFD1D8948BC9C4472C8CDCD3E740&thid=OIP.5b64FIK60Ov6i_zYVNS9KgHaEo&mediaurl=https%3a%2f%2fmk0wittysparksm75pi6.kinstacdn.com%2fwp-content%2fuploads%2f2017%2f08%2fMachine-Learning-1024x640.jpg&exph=640&expw=1024&q=image+machine+learning&simid=608003813052583360&ck=FD034DB3FF06599B82E971FF7DF93247&selectedIndex=2&FORM=IRPRST)
-
 ### Technologie
 
-A développer
+#### Gestion espace disque
 
-Langage programmation:
-- Python
-- Java script
+Tout d'abord nous avons décidé d'utiliser docker plutot qu'une VM pour encapsuler notre projet, d'une part parce que
 
 Gestionnaire espace:
 - Docker
 - VMware Player
 
-Buffer
-- kafka
-- rabbitMQ
+#### Langage de programmation
+
+Langage programmation:
+- Python
+- Java script
+
+#### API
 
 API
 - flask
 - fastapi
+
+#### Base de données
 
 Database
 - mogodb
@@ -50,6 +52,12 @@ Database
 - webscrapping
 - mongoose
 
+#### Web scraping
+
 WebScrapping
 - beautifullsoup
 - selenium
+
+Buffer
+- kafka
+- rabbitMQ
