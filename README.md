@@ -119,8 +119,12 @@ Ces techonologies ont été choisi en fonction de leurs avantages, mais aussi en
 ### Perspective
 
 Si un projet similaire futur viendrait à se présenter, nous pensons que, de manière évidente, nous ne choisirons pas forcément les mêmes paramètres.
+
 Notamment au niveau du Webscraping et de la base de donnée, nous ne sommes pas cantonner à reprendre les mêmes outils, ces derniers dépendant fortement de notre objectif, de nos moyens et du temps pour réaliser le dit projet.
+
 Concernant le langage de programmation et Docker, aucune technologie à ce jour est, selon notre opinion personnelle, plus perfomante, ou du moins plus pratique concernant ce que nous voulons faire.
+
 Par ailleurs, nous ne sommes pas fermé à tester d'autres outils, tels que FastAPi, qui dans ce cas-là ne paraissait pas le meilleur choix, mais qui objectivement peut apporter un plus au projet, surtout s'il on prend on compte la documentation automatique.
+
 Pour conclure, nous ne reprendrons pas forcément les mêmes outils pour diverses raisons, que ce soit par choix subjectif ou par nécessité.
 
