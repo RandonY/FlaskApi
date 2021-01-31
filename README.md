@@ -46,6 +46,7 @@ Tandis que Docker permet de créer son conteneur et d'y installer les prérequis
 #### Langage de programmation
 
 |Langage|Description|
+|----|-----|
 |Python|Python est un langage de programmation interprété, multi- paradigme et multiplateformes.
 Il favorise la programmation impérative structurée, fonctionnelle et orientée objet.
 L'un de ces avantages est qu'il possède une grande communauté très active et des codes disponible en open source ce qui permet d'avoir accès à beaucoup de ressource de manière totalement gratuite.|
