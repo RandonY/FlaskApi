@@ -100,19 +100,27 @@ C'est pourquoi nous avons décidé d'utiliser MongoDB qui palie ce besoin.
 
 Pour ce projet, le web scraping n'a pas besoin d'être dynamique, de ce fait selenium n'est pas optimisé pour l'utilisation que l'on souhaite en faire.
 
-Dans le cadre de nos études, nous avons déjà utilisé bfs et non scrappy.
+Dans le cadre de nos études, nous avons déjà utilisé BeautifulSoup et non Scrappy. Parmis les membres de notre projet certains ne sont pas familier avec 
 
-De plus bfs est un outil dont les performances suffise pour les besoins du projet.
+De plus BeautifulSoup est un outil dont les performances suffise pour les besoins du projet.
 
 ### Conclusion
 
-Pour ce projet, nous allons utilisé diverses technologies :
-- Docker (encapsuleur)
+Pour ce projet, nous allons utiliser diverses technologies :
+
+- Docker (gestion espace disque)
 - Python (langage de programmation)
 - Flask (API)
 - MongoDB (Base de données)
 - BeautifulSoup (Web scraping)
 
+Ces techonologies ont été choisi en fonction de leurs avantages, mais aussi en fonction de notre affinité par rapport a celles-ci. En prenant en compte le temps dont nous disposons pour réaliser le projet et les capacités de chacun.
+
 ### Perspective
 
+Si un projet similaire futur viendrait à se présenter, nous pensons que, de manière évidente, nous ne choisirons pas forcément les mêmes paramètres.
+Notamment au niveau du Webscraping et de la base de donnée, nous ne sommes pas cantonner à reprendre les mêmes outils, ces derniers dépendant fortement de notre objectif, de nos moyens et du temps pour réaliser le dit projet.
+Concernant le langage de programmation et Docker, aucune technologie à ce jour est, selon notre opinion personnelle, plus perfomante, ou du moins plus pratique concernant ce que nous voulons faire.
+Par ailleurs, nous ne sommes pas fermé à tester d'autres outils, tels que FastAPi, qui dans ce cas-là ne paraissait pas le meilleur choix, mais qui objectivement peut apporter un plus au projet, surtout s'il on prend on compte la documentation automatique.
+Pour conclure, nous ne reprendrons pas forcément les mêmes outils pour diverses raisons, que ce soit par choix subjectif ou par nécessité.
 
