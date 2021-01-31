@@ -112,3 +112,7 @@ Pour ce projet, nous allons utilisé diverses technologies :
 - Flask (API)
 - MongoDB (Base de données)
 - BeautifulSoup (Web scraping)
+
+### Perspective
+
+
