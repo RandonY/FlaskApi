@@ -103,3 +103,12 @@ Pour ce projet, le web scraping n'a pas besoin d'être dynamique, de ce fait sel
 Dans le cadre de nos études, nous avons déjà utilisé bfs et non scrappy.
 
 De plus bfs est un outil dont les performances suffise pour les besoins du projet.
+
+### Conclusion
+
+Pour ce projet, nous allons utilisé diverses technologies :
+- Docker (encapsuleur)
+- Python (langage de programmation)
+- Flask (API)
+- MongoDB (Base de données)
+- BeautifulSoup (Web scraping)
