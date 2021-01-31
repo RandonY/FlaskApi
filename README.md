@@ -50,9 +50,7 @@ Tandis que Docker permet de créer son conteneur et d'y installer les prérequis
 |Python|Python est un langage de programmation interprété, multi- paradigme et multiplateformes. Il favorise la programmation impérative structurée, fonctionnelle et orientée objet. L'un de ces avantages est qu'il possède une grande communauté très active et des codes disponible en open source ce qui permet d'avoir accès à beaucoup de ressource de manière totalement gratuite.|
 |Javascript|JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives et à ce titre est une partie essentielle des applications web. Avec les technologies HTML et CSS, JavaScript est parfois considéré comme l'une des technologies cœur du World Wide Web.|
 |C++|C++ est un langage de programmation compilé permettant la programmation sous de multiples paradigmes, dont la programmation procédurale, la programmation orientée objet et la programmation générique. Ses bonnes performances, et sa compatibilité avec le C en font un des langages de programmation les plus utilisés dans les applications où la performance est critique.|
-|Java|Java est une technique informatique développée initialement par Sun Microsystems puis acquise par Oracle suite au rachat de l'entreprise.
-Défini à l'origine comme un langage de programmation, Java a évolué pour devenir un ensemble cohérent d'éléments techniques et non techniques.
-Ce langage est utilisé dans de nombreux logiciels différents et présent partout dans notre vie.|
+|Java|Java est une technique informatique développée initialement par Sun Microsystems puis acquise par Oracle suite au rachat de l'entreprise. Défini à l'origine comme un langage de programmation, Java a évolué pour devenir un ensemble cohérent d'éléments techniques et non techniques. Ce langage est utilisé dans de nombreux logiciels différents et présent partout dans notre vie.|
 
 ##### Choix
 
@@ -67,23 +65,10 @@ Nous avons donc choisi d'utiliser python comme langage de programmation.
 
 #### API
 
-##### Flask
-
-Flask est un micro framework open-source de développement web en Python.
-
-Il est classé comme microframework car il est très léger.
-
-Flask a pour objectif de garder un noyau simple mais extensible.
-
-Il n'intègre pas de système d'authentification, pas de couche d'abstraction de base de données, ni d'outil de validation de formulaires.
-
-Flask est aussi un outil très utilisé en entreprise, ce qui renferce l'intêret de son apprentissage
-
-##### Fastapi
-
-FastAPI est un framework Python avec de hautes performances, facile à apprendre, rapide à coder et facilement prêt pour la production.
-
-Ce framework propose aussi une documentation automatique avec Swagger UI.
+|Framework|Description|
+|----|-----|
+|Flask|Flask est un micro framework open-source de développement web en Python. Il est classé comme microframework car il est très léger. Flask a pour objectif de garder un noyau simple mais extensible. Il n'intègre pas de système d'authentification, pas de couche d'abstraction de base de données, ni d'outil de validation de formulaires. Flask est aussi un outil très utilisé en entreprise, ce qui renferce l'intêret de son apprentissage|
+|Fastapi|FastAPI est un framework Python avec de hautes performances, facile à apprendre, rapide à coder et facilement prêt pour la production. Ce framework propose aussi une documentation automatique avec Swagger UI.|
 
 ##### Choix
 
@@ -91,23 +76,10 @@ Parmis les membres du projet, la plupart étaient familier avec Flask c'est pour
 
 #### Base de données
 
-##### Mysql
-
-MySQL est un système de gestion de bases de données relationnelles (SGBDR). Il est distribué sous une double licence GPL et propriétaire.
-
-Il fait partie des logiciels de gestion de base de données les plus utilisés au monde3, autant par le grand public (applications web principalement) que par des professionnels, en concurrence avec Oracle, PostgreSQL et Microsoft SQL Server.
-
-C'est un outil facile à utiliser et à l'avantage de se coder avec des requetes SQL.
-
-##### Mongodb
-
-MongoDB est un système de gestion de base de données orienté documents, répartissable sur un nombre quelconque d'ordinateurs et ne nécessitant pas de schéma prédéfini des données.
-
-Il est écrit en C++. 
-
-Le serveur et les outils sont distribués sous licence SSPL, les pilotes sous licence Apache et la documentation sous licence Creative Commons.
-
-Il utilise des requetes NoSQL.
+|Base de données|Description|
+|----|-----|
+|Mysql|MySQL est un système de gestion de bases de données relationnelles (SGBDR). Il est distribué sous une double licence GPL et propriétaire. Il fait partie des logiciels de gestion de base de données les plus utilisés au monde3, autant par le grand public (applications web principalement) que par des professionnels, en concurrence avec Oracle, PostgreSQL et Microsoft SQL Server. C'est un outil facile à utiliser et à l'avantage de se coder avec des requetes SQL.|
+|Mongodb|MongoDB est un système de gestion de base de données orienté documents, répartissable sur un nombre quelconque d'ordinateurs et ne nécessitant pas de schéma prédéfini des données. Il est écrit en C++. Le serveur et les outils sont distribués sous licence SSPL, les pilotes sous licence Apache et la documentation sous licence Creative Commons. Il utilise des requetes NoSQL.|
 
 ##### Choix
 
@@ -118,33 +90,11 @@ C'est pourquoi nous avons décidé d'utiliser MongoDB qui palie ce besoin.
 
 #### Web scraping
 
-##### BeautifulSoup
-
-Beautiful Soup est une bibliothèque Python d'analyse syntaxique de documents HTML et XML créée par Leonard Richardson.
-
-Elle produit un arbre syntaxique qui peut être utilisé pour chercher des éléments ou les modifier. Lorsque le document HTML ou XML est mal formé (par exemple s'il manque des balises fermantes), Beautiful Soup propose une approche à base d'heuristiques afin de reconstituer l'arbre syntaxique sans générer d'erreurs. 
-
-Cette approche est aussi utilisée par les navigateurs web modernes.
-
-Cette bibliothèque est surtout utile pour scrapper des élements statiques.
-
-##### Selenium
-
-Selenium est un framework de test informatique développé en Java.
-
-Il permet d'interagir avec différents navigateurs web de même que le ferait un utilisateur de l'application. Il entre ainsi dans la catégorie des outils de test dynamique (à l'inverse des tests statiques qui ne nécessitent pas l'exécution du logiciel) facilitant le test fonctionnel. 
-
-Il utilise des drivers afin de récuperer l'information dynamiquement.
-
-##### Scrappy
-
-Scrapy est un framework open-source permettant la création de robots d'indexation. Développé en Python, il dispose d'une forte communauté, offrant de nombreux modules supplémentaires.
-
-L'équipe de développement publie régulièrement de nouvelles versions dans le but d'enrichir le framework en fonctionnalité.
-
-Le framework dispose d'une communauté active, et un support commercial est effectué par plusieurs entreprises.
-
-C'est un outil simple, rapide, robuste et open source
+|Logiciel|Description|
+|----|-----|
+|BeautifulSoup|Beautiful Soup est une bibliothèque Python d'analyse syntaxique de documents HTML et XML créée par Leonard Richardson. Elle produit un arbre syntaxique qui peut être utilisé pour chercher des éléments ou les modifier. Lorsque le document HTML ou XML est mal formé (par exemple s'il manque des balises fermantes), Beautiful Soup propose une approche à base d'heuristiques afin de reconstituer l'arbre syntaxique sans générer d'erreurs. Cette approche est aussi utilisée par les navigateurs web modernes. Cette bibliothèque est surtout utile pour scrapper des élements statiques.|
+|Selenium|Selenium est un framework de test informatique développé en Java. Il permet d'interagir avec différents navigateurs web de même que le ferait un utilisateur de l'application. Il entre ainsi dans la catégorie des outils de test dynamique (à l'inverse des tests statiques qui ne nécessitent pas l'exécution du logiciel) facilitant le test fonctionnel. Il utilise des drivers afin de récuperer l'information dynamiquement.|
+|Scrappy|Scrapy est un framework open-source permettant la création de robots d'indexation. Développé en Python, il dispose d'une forte communauté, offrant de nombreux modules supplémentaires. L'équipe de développement publie régulièrement de nouvelles versions dans le but d'enrichir le framework en fonctionnalité. Le framework dispose d'une communauté active, et un support commercial est effectué par plusieurs entreprises. C'est un outil simple, rapide, robuste et open source| 
 
 ##### Choix
 
