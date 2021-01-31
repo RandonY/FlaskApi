@@ -33,8 +33,8 @@ Après avoir fait des recherches sur différents sites météorologiques et sur 
 |Docker|Docker est un outil qui peut empaqueter une application et ses dépendances dans un conteneur isolé, qui pourra être exécuté sur n'importe quel serveur|
 |VMware Workstation Player|VMware Workstation Player est une application d’hyperviseur des postes de travail, avec des fonctionnalités de virtualisation locale, disponible gratuitement pour une utilisation à titre personnel.
 
-Une licence commerciale peut être appliquée pour que Workstation Player puisse exécuter les machines virtuelles restreintes créées par VMware Workstation Pro et Fusion Pro.
-|
+Une licence commerciale peut être appliquée pour que Workstation Player puisse exécuter les machines virtuelles restreintes créées par VMware Workstation Pro et Fusion Pro.|
+|----|-----|
 |Oracle VirtualBox|Oracle VM VirtualBox, le logiciel de virtualisation multiplateforme à code source ouvert le plus populaire au monde, permet aux développeurs de fournir du code plus rapidement en exécutant plusieurs systèmes d’exploitation sur un seul terminal.|
 
 ##### Choix
