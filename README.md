@@ -45,33 +45,17 @@ Tandis que Docker permet de créer son conteneur et d'y installer les prérequis
 
 #### Langage de programmation
 
-##### Python
-
-Python est un langage de programmation interprété, multi- paradigme et multiplateformes.
-
+|Langage|Description|
+|Python|Python est un langage de programmation interprété, multi- paradigme et multiplateformes.
 Il favorise la programmation impérative structurée, fonctionnelle et orientée objet.
-
-L'un de ces avantages est qu'il possède une grande communauté très active et des codes disponible en open source ce qui permet d'avoir accès à beaucoup de ressource de manière totalement gratuite.
-
-##### Javascript
-
-JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives et à ce titre est une partie essentielle des applications web.
-
-Avec les technologies HTML et CSS, JavaScript est parfois considéré comme l'une des technologies cœur du World Wide Web.
-
-##### C++
-
-C++ est un langage de programmation compilé permettant la programmation sous de multiples paradigmes, dont la programmation procédurale, la programmation orientée objet et la programmation générique.
-
-Ses bonnes performances, et sa compatibilité avec le C en font un des langages de programmation les plus utilisés dans les applications où la performance est critique.
-
-##### Java
-
-Java est une technique informatique développée initialement par Sun Microsystems puis acquise par Oracle suite au rachat de l'entreprise.
-
+L'un de ces avantages est qu'il possède une grande communauté très active et des codes disponible en open source ce qui permet d'avoir accès à beaucoup de ressource de manière totalement gratuite.|
+|Javascript|JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives et à ce titre est une partie essentielle des applications web.
+Avec les technologies HTML et CSS, JavaScript est parfois considéré comme l'une des technologies cœur du World Wide Web.|
+|C++|C++ est un langage de programmation compilé permettant la programmation sous de multiples paradigmes, dont la programmation procédurale, la programmation orientée objet et la programmation générique.
+Ses bonnes performances, et sa compatibilité avec le C en font un des langages de programmation les plus utilisés dans les applications où la performance est critique.|
+|Java|Java est une technique informatique développée initialement par Sun Microsystems puis acquise par Oracle suite au rachat de l'entreprise.
 Défini à l'origine comme un langage de programmation, Java a évolué pour devenir un ensemble cohérent d'éléments techniques et non techniques.
-
-Ce langage est utilisé dans de nombreux logiciels différents et présent partout dans notre vie.
+Ce langage est utilisé dans de nombreux logiciels différents et présent partout dans notre vie.|
 
 ##### Choix
 
